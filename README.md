@@ -26,13 +26,13 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [x] Mention two parts of Express that you learned about this week.
 express is a framework used for node. you can use express to implement middleware which can control different requirements to access your data. express can also be used to implement routers. 
-- [ ] Describe Middleware?
+- [x] Describe Middleware?
 Middleware are functions that can get req and res objects and return them. if the next() method is implemented, the code will move to the next middleware. 
-- [ ] Describe a Resource?
+- [x] Describe a Resource?
 A resource is data that follows a http request. esentially it is any data that is returned. 
-- [ ] What can the API return to help clients know if a request was successful?
+- [x] What can the API return to help clients know if a request was successful?
 the API can return different error status codes to let the client know if the request was successful. 
-- [ ] How can we partition our application into sub-applications?
+- [x] How can we partition our application into sub-applications?
 splitting contents into different folders using routing, subrouting and libraries can help organize our code. 
 ## Project Setup
 
@@ -68,8 +68,8 @@ The `projectModel.js` helper includes an extra method called `getProjectActions(
 
 ## Minimum Viable Product
 
-- [ ] Configure an _npm script_ named _"server"_ that will execute your code using _nodemon_. Make _nodemon_ be a development time dependency only, it shouldn't be deployed to production.
-- [ ] Configure an _npm script_ named _"start"_ that will execute your code using _node_.
+- [x] Configure an _npm script_ named _"server"_ that will execute your code using _nodemon_. Make _nodemon_ be a development time dependency only, it shouldn't be deployed to production.
+- [x] Configure an _npm script_ named _"start"_ that will execute your code using _node_.
 
 Design and build the necessary endpoints to:
 
